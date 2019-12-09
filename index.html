@@ -61,10 +61,12 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      	<ul class="nav navbar-nav mu-menu navbar-right">
 			      		<li><a href="#mu-hero">Home</a></li>
-				        <li><a href="#mu-about">About Us</a></li>
-				        <li><a href="#mu-schedule">Submit Your Paper</a></li>
-			            <li><a href="#mu-register">Registration</a></li>
-			            <li><a href="#mu-contact">Contact</a></li>
+				        <li><a href="#mu-event-counter">About Us</a></li>
+                <li><a href="#mu-venue">Venue</a></li>
+				        <li><a href="#mu-paper">Submit Your Paper</a></li>
+			          <li><a href="#mu-register">Registration</a></li>
+                <li><a href="#mu-det">Gallery</a></li>
+			          <li><a href="#mu-contact">Contact</a></li>
 			      	</ul>
 			    </div><!-- /.navbar-collapse -->
 		  	</div><!-- /.container-fluid -->
@@ -165,7 +167,7 @@
             <div class="col-md-8">
               <div class="mu-about-right">
                 <h2>About CET Bhubaneswar</h2>
-                <p class="comment more">
+                <p class="comment more" style="text-align:justify;">
                   The College of Engineering & Technology, Bhubaneswar was established by the Government of Odisha in 1981 to meet the growing technical man power need in the State. The College is located in the Techno-campus (an area of more than 100 Acres) at Kalinga Nagar, Bhubaneswar about 2.0 Kms. away from Khandagiri-Udayagiri caves. The College was shifted to the new Techno Campus in March, 2001. Equipped with high end research facilities with the presence of a High Performance Computing Lab for Artificial Intelligence, Deep Learning and Virtual Reality, Scanning Electron Microscope, 3D Printers to name a few. The college is NAAC ‘A’ accredited and it got an academic autonomy status very in September 2017. The college has received funds under three TEQIP programs.
                   The Department of Instrumentation and Electronics Engineering was established in 1992. It is equipped with sophisticated laboratories and well qualified faculty. The department is NBA accredited which caters to the different fields of electronics through its various labs in the field of Instrumentation, Communication, Process Control, VLSI, Embedded Systems and Signal Processing.
               </div>
@@ -185,7 +187,7 @@
             <div class="col-md-8">
               <div class="mu-about-right">
                 <h2>About JNTU Kakinada</h2>
-                <p class="comment more">Jawaharlal Nehru Technological University Kakinada is formed after quadrificating JNTUH in the year 2008.  University College of Engineering, Kakinada, is constituent college of this JNTU Kakinada, playing its role of imparting technological education and actively involving in research in the state of Andhra Pradesh. The Department of Electronics and Communication Engineering in this Institute is the first department established in the state of Andhra Pradesh. The department has expertise in Communication Engineering, Signal and Image processing, Antennas and VLSI Design.</p>
+                <p class="comment more" style="text-align:justify;">Jawaharlal Nehru Technological University Kakinada is formed after quadrificating JNTUH in the year 2008.  University College of Engineering, Kakinada, is constituent college of this JNTU Kakinada, playing its role of imparting technological education and actively involving in research in the state of Andhra Pradesh. The Department of Electronics and Communication Engineering in this Institute is the first department established in the state of Andhra Pradesh. The department has expertise in Communication Engineering, Signal and Image processing, Antennas and VLSI Design.</p>
               </div>
             </div>
           </div>
@@ -200,7 +202,7 @@
     							<div class="mu-title-area"  >
     								<h2 class="mu-about-right">Objectives of the Conference</h2>
     								<p style="text-align:justify;"> The conference aims at providing an opportunity for knowledge sharing, exchange of research experience and ideas among Academia, Industry, Research Scholars, Scientists, and Entrepreneurs for sustainable growth of the society. Original and high quality contributions are invited from prospective authors from related areas. The contributions must not be published elsewhere or submitted for publication. During the review period, Papers will be reviewed by eminent Researchers in the respective areas. The proceedings copy of this conference shall be published with an ISBN number.
-The Organizers cordially invite Abstracts and Full Research Papers for presentation from all over the academic and industry community to participate/present and publish their research papers in the National Conference on 26th & 27th of March, 2020, in association with JNTU Kakinada   in the following scientific areas for presentations and discussions thereafter. </p>
+                    The Organizers cordially invite Abstracts and Full Research Papers for presentation from all over the academic and industry community to participate/present and publish their research papers in the National Conference on 26th & 27th of March, 2020, in association with JNTU Kakinada   in the following scientific areas for presentations and discussions thereafter. </p>
     								<p style="text-align:justify;">The Organizers cordially invite Abstracts and Full Research Papers for presentation from all over the academic and industry community to participate/present and publish their research papers in the National Conference on 26th & 27th of February, 2020, in association with CET Bhubaneswar and technically Sponsored by IETE Kakinada section   in the following scientific areas for presentations and discussions thereafter. </p>
     							</div>
 
@@ -219,7 +221,7 @@ The Organizers cordially invite Abstracts and Full Research Papers for presentat
         <div class="col-md-2">
           <div class="imp-dates">
             <h3 style="color:red;">Important Dates</h3><hr class="underline">
-            <marquee direction="up" scrollamount="5">
+            <marquee direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <strong>30th Dec, 2019:</strong><br>
               Last date for</br>
               Paper submission <hr class="underline">
@@ -229,10 +231,7 @@ The Organizers cordially invite Abstracts and Full Research Papers for presentat
               Online Registration</br> <hr class="underline">
               <strong>20th Jan, 2020:</strong>
               <br>Camera Ready Copy Submission</br><hr class="underline">
-              <strong>Submit Your papers</strong> <hr class="underline">
-
-
-
+              <a href="#mu-register"><strong>Submit Your papers</strong> <hr class="underline"></a>
             </marquee>
 
 
@@ -267,26 +266,27 @@ The Organizers cordially invite Abstracts and Full Research Papers for presentat
 		<!-- End Venue -->
     <section id="mu-paper">
       <div class="row">
-        <div class="col-md-12">
-          <h1>Call For Papers</h1>
-          <p><strong>SPICE-2020 invites original submissions in the following general or related areas:</strong></p>
-          <ol>
-          <li><a href="#">VLSI / Microelectronics/ Nanoelectronics</a></li>
-          <li><a href="#">Signal and Speech Processing/ Machine Learning</a></li>
-          <li><a href="#">Image and Video Processing</a></li>
-          <li><a href="#">Communications (Wireless, Mobile Radar & Microwave Applications/ Antenna/ 4G-5G Mobile Networks/ Software Defined Radio/ Optical Communication)</a></li>
-          <li><a href="#">Embedded Systems Applications/ IoT</a></li>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <center><h1>Call For Papers</h1></center> <br>
+          <p style="text-align:justify; font-size:18px;"><strong>SPICE-2020 invites original submissions in the following general or related areas:</strong></p>
+          <ol class="gradient-list">
+          <li>VLSI / Microelectronics/ Nanoelectronics</li>
+          <li>Signal and Speech Processing/ Machine Learning</li>
+          <li>Image and Video Processing</li>
+          <li>Communications (Wireless, Mobile Radar & Microwave Applications/ Antenna/ 4G-5G Mobile Networks/ Software Defined Radio/ Optical Communication)</li>
+          <li>Embedded Systems Applications/ IoT.</li>
           </ol>
-          <p><strong>Salient features of this conference:</strong> </p>
-          <ol>
-          <li><a href="#">The conference will be organized in association JNTUK.</a></li>
-          <li><a href="#">The Plenary Speakers & Technical Committee of the Conference will comprise of experts from the Industry.</a></li>
-          <li><a href="#">The conference will be organized in association JNTUK </a></li>
-          <li><a href="#">The Conference will include a UG Student forum.</a></li>
-          <li><a href="#">The conference will also present an award for Best Paper in the UG and PG category respectively.</a></li>
-          </ol>
-          <h1>Submission of Paper</h1>
-          <p>Prospective authors are invited to prepare full text paper (not exceeding 5 pages) in IEEE format available on <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">http://www.ieee.org/conferences_events/conferences/publishing/templates.html</a> Authors are requested to send the soft copy of the paper to the organizers by email to vspice2020@gmail.com The accepted and presented full papers only will be published in conference proceedings.</p>
+          <p style="text-align:justify; font-size:18px;"><strong>Salient features of this conference:</strong> </p>
+          <ol class="gradient-list">
+          <li>The conference will be organized in association JNTUK.</li>
+          <li>The Plenary Speakers & Technical Committee of the Conference will comprise of experts from the Industry.</li>
+          <li>The conference will be organized in association JNTUK.</li>
+          <li>The Conference will include a UG Student forum.</li>
+          <li>The conference will also present an award for Best Paper in the UG and PG category respectively.</li>
+        </ol> <br><br>
+          <center><h1>Submission of Paper</h1></center>
+          <p style="text-align:justify; font-size:16px;">Prospective authors are invited to prepare full text paper (not exceeding 5 pages) in IEEE format available on <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">http://www.ieee.org/conferences_events/conferences/publishing/templates.html</a> Authors are requested to send the soft copy of the paper to the organizers by email to vspice2020@gmail.com The accepted and presented full papers only will be published in conference proceedings.</p>
 
         </div>
 
@@ -343,7 +343,7 @@ The Organizers cordially invite Abstracts and Full Research Papers for presentat
 
             </table></center>
             <div style="color:#fff; font-size:16px; margin-bottom:40px;">
-              <p>Authors of selected papers should send registration form
+              <p style="text-align:justify;">Authors of selected papers should send registration form
                 along with DD in favour of “Principal CET” payable at
                 CET Bhubaneswar on or before 10 th February 2020. The
                 registration fees include local hospitality during the
@@ -523,163 +523,65 @@ The Organizers cordially invite Abstracts and Full Research Papers for presentat
 				</div>
 			</div> -->
       <div class="container">
-    <div class="gallery row"> <br>
-
-
-      <!-- 3 -->
-      <div class="gallery-list col-md-4 col-xs-6">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-          <figcaption>
-	    		  <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    		</figcaption>
-	    		<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+        <center style="margin:30px;"><h1>Gallery</h1> </center>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cinque Terre" width="600" height="400">
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="gallery-list col-md-4 col-xs-6">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cinque Terre" width="600" height="400">
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="gallery-list col-md-4 col-xs-6">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/126400/pexels-photo-126400.jpeg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cinque Terre" width="600" height="400">
+            </a>
+          </div>
         </div>
-      </div>
-     <!-- 3 -->
-
-      <!-- 2 -->
-      <div class="gallery-list col-md-6 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cinque Terre" width="600" height="400">
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="gallery-list col-md-6 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cinque Terre" width="600" height="400">
+            </a>
+          </div>
         </div>
-      </div>
-     <!-- 2 -->
-
-      <!-- 1 -->
-      <!-- <div class="gallery-list col-md-12 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cinque Terre" width="600" height="400">
+            </a>
+          </div>
         </div>
-      </div> -->
-     <!-- 1 -->
-
-      <!-- 3 -->
-      <div class="gallery-list col-md-4 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cinque Terre" width="600" height="400">
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="gallery-list col-md-4 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cinque Terre" width="600" height="400">
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="gallery-list col-md-4 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/126400/pexels-photo-126400.jpeg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-        </div>
-      </div>
-     <!-- 3 -->
-
-      <!-- 2 -->
-      <div class="gallery-list col-md-6 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-        </div>
-      </div>
-      <div class="gallery-list col-md-6 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-        </div>
-      </div>
-     <!-- 2 -->
-
-      <!-- 3 -->
-      <!-- <div class="gallery-list col-md-4 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-        </div>
-      </div> -->
-      <!-- <div class="gallery-list col-md-4 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-        </div>
-      </div> -->
-      <!-- <div class="gallery-list col-md-4 col-xs-12">
-        <div class="image-grid">
-          <img src="https://static.pexels.com/photos/126400/pexels-photo-126400.jpeg">
-          <figcaption>
-	    							<p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-	    						</figcaption>
-	    						<a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-        </div>
-      </div> -->
-    </div>
-  </div>
-
-  <div id="modalGallery" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalGalleryLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-body">
-		        <img class="js-modal-image" src="" alt="..." />
-		      </div>
-		    </div>
-		  </div>
-	</div>
+    <div class="clearfix"></div>
+    <br><br>
 
 		</section>
 		<!-- End det -->
